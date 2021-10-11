@@ -1,0 +1,23 @@
+{% extends 'layout.njk' %} 
+
+{% block head %}
+    <title>Videos - Luiz Cavalcante</title>
+{% endblock %}
+
+{% block content %}
+
+    <div id="wrapper" class="card__container">
+        <h1>{{ item.title }}</h1>
+    </div>
+
+    <div class="card__container" id="{{ item.id }}">
+        <div class="card__video-container">
+            <iframe src="https://www.youtube.com/embed/{{ item.id }}" allowfullscreen frameborder="0"></iframe>
+        </div>
+        <div class="card__video__info">
+            <p>{{ item.duration }}</p>
+            <p class="card__video__price">{{ item.price }}</p>
+        </div>
+    </div>
+
+{% endblock %}

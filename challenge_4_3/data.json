@@ -1,0 +1,14 @@
+{
+    "teachers": [
+        {
+            "id": 1,
+            "avatar_url": "https://github.com/louiscavalcante",
+            "full_name": "Luiz Cavalcante",
+            "birth": 590284800000,
+            "degree_level": "associate",
+            "attendance_type": "in_person",
+            "teaches": "JavaScript, NodeJS",
+            "created_at": 1633493080557
+        }
+    ]
+}
