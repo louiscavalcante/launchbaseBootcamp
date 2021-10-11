@@ -1,2 +1,0 @@
-# launchbaseBootcamp
-Rocketseat Bootcamp - Launchbase
