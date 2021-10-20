@@ -65,6 +65,7 @@ CREATE TABLE public.teachers (
     avatar_url text,
     full_name text,
     birth timestamp without time zone,
+    degree_level text,
     attendance_type text,
     teaches text,
     created_at timestamp without time zone
@@ -117,7 +118,7 @@ COPY public.students (id, avatar_url, full_name, birth, email, school_year, work
 -- Data for Name: teachers; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-COPY public.teachers (id, avatar_url, full_name, birth, attendance_type, teaches, created_at) FROM stdin;
+COPY public.teachers (id, avatar_url, full_name, birth, degree_level, attendance_type, teaches, created_at) FROM stdin;
 \.
 
 
