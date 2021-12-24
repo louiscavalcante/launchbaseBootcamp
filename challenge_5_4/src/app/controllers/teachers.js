@@ -26,7 +26,7 @@ module.exports = {
 				const newTeachers = teachers.map(splitFunc)
 
 				const pagination = {
-					total: Math.ceil(teachers[0].total / limit),
+					total: Math.ceil(teachers[0]?.total / limit),
 					page,
 				}
 				return res.render('teachers/index', { teachers: newTeachers, filter, pagination })
